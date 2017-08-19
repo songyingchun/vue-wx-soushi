@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html {
+            -ms-touch-action: none;
+        }
+
+        body,ul,li {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        body {
+            font-size: 12px;
+            font-family: ubuntu, helvetica, arial;
+            overflow: hidden;
+        }
+
+        #wrapper {
+            position: absolute;
+            z-index: 1;
+            top: 45px;
+            bottom: 48px;
+            left: 0;
+            width: 100%;
+            background: #ccc;
+            overflow: hidden;
+        }
+
+        #scroller {
+            position: absolute;
+            z-index: 1;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            width: 100%;
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -o-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+            -o-text-size-adjust: none;
+            text-size-adjust: none;
+        }
+
+        #scroller ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            text-align: left;
+        }
+
+        #scroller li {
+            padding: 0 10px;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #fff;
+            background-color: #fafafa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<!--http://pnc.co.il/dev/iscroll-5-pull-to-refresh-and-infinite-demo.html-->
+<div id="wrapper">
+    <div id="scroller">
+        <ul>
+            <!--<li>Pretty row 1</li>-->
+            <!--<li>Pretty row 2</li>-->
+            <!--<li>Pretty row 3</li>-->
+            <!--<li>Pretty row 4</li>-->
+            <!--<li>Pretty row 5</li>-->
+            <!--<li>Pretty row 6</li>-->
+            <!--<li>Pretty row 7</li>-->
+            <!--<li>Pretty row 8</li>-->
+            <!--<li>Pretty row 9</li>-->
+            <!--<li>Pretty row 10</li>-->
+            <!--<li>Pretty row 11</li>-->
+            <!--<li>Pretty row 12</li>-->
+            <!--<li>Pretty row 13</li>-->
+            <!--<li>Pretty row 14</li>-->
+            <!--<li>Pretty row 15</li>-->
+            <!--<li>Pretty row 16</li>-->
+            <!--<li>Pretty row 17</li>-->
+            <!--<li>Pretty row 18</li>-->
+            <!--<li>Pretty row 19</li>-->
+            <!--<li>Pretty row 20</li>-->
+        </ul>
+        <div class="loading-bar">
+            123
+        </div>
+    </div>
+</div>
+<script src="iscroll-probe.js"></script>
+<script>
+    var str = '';
+    for(var i = 0, l = 20; i < l; i++) {
+        str += '<li>Pretty row ' + i + '</li>';
+    }
+    var ul = document.querySelector("ul");
+    ul.innerHTML = str;
+
+    var myScroll = new IScroll('#wrapper', {
+//        bounceEasing: 'elastic',
+        bounceTime: 500,
+        mouseWheel: true,
+        scrollbars: true,
+        fadeScrollbars: true,
+        probeType: 3,
+        click:false
+    });
+
+    myScroll.on('scrollEnd', function () {
+        if(this.y <= this.maxScrollY) {
+            var str2 = '';
+            for(var i = 0, l = 20; i < l; i++) {
+                str2 += '<li>Pretty row ' + i + '</li>';
+            }
+            str += str2;
+            ul.innerHTML = str;
+            myScroll.refresh();
+            document.querySelector(".loading-bar").innerText = '123';
+        }
+    });
+    myScroll.on('scroll', function () {
+        if(this.y <= this.maxScrollY) {
+            document.querySelector(".loading-bar").innerText = 'loading';
+        }
+    });
+</script>
+</body>
+</html>

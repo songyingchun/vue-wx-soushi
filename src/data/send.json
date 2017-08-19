@@ -1,0 +1,111 @@
+{
+  "status": {
+    "message": "ok",
+    "code": 0
+  },
+  "data": {
+    "list": [
+      {
+        "id": 42,
+        "userId": 3,
+        "province": 7,
+        "provinceName": "内蒙古",
+        "city": 147,
+        "cityName": "呼和浩特",
+        "county": 826,
+        "countyName": "玉泉",
+        "address": "泉眼1",
+        "fullAddress": "内蒙古自治区呼和浩特市玉泉区泉眼1",
+        "name": "浩特",
+        "mobile": "15119894951",
+        "defaulted": 1
+      },
+      {
+        "id": 25,
+        "userId": 3,
+        "province": 20,
+        "provinceName": "广东",
+        "city": 324,
+        "cityName": "珠海",
+        "county": 2242,
+        "countyName": "斗门",
+        "address": "上上",
+        "fullAddress": "广东省珠海市斗门区上上",
+        "name": "呜呜呜",
+        "mobile": "13123456789",
+        "defaulted": 0
+      },
+      {
+        "id": 26,
+        "userId": 3,
+        "province": 12,
+        "provinceName": "浙江",
+        "city": 208,
+        "cityName": "杭州",
+        "county": 1324,
+        "countyName": "余杭",
+        "address": "反反复复",
+        "fullAddress": "浙江省杭州市余杭区反反复复",
+        "name": "cheneee",
+        "mobile": "15123456789",
+        "defaulted": 0
+      },
+      {
+        "id": 27,
+        "userId": 3,
+        "province": 2,
+        "provinceName": "天津",
+        "city": 55,
+        "cityName": "河东",
+        "county": 0,
+        "address": "飒飒",
+        "fullAddress": "天津市河东区飒飒",
+        "name": "sea",
+        "mobile": "18378499278",
+        "defaulted": 0
+      },
+      {
+        "id": 28,
+        "userId": 3,
+        "province": 4,
+        "provinceName": "重庆",
+        "city": 87,
+        "cityName": "万州",
+        "county": 0,
+        "address": "阿萨",
+        "fullAddress": "重庆市万州区阿萨",
+        "name": "飒飒",
+        "mobile": "18378499230",
+        "defaulted": 0
+      },
+      {
+        "id": 29,
+        "userId": 3,
+        "province": 2,
+        "provinceName": "天津",
+        "city": 55,
+        "cityName": "河东",
+        "county": 0,
+        "address": "阿萨",
+        "fullAddress": "天津市河东区阿萨",
+        "name": "手机",
+        "mobile": "18378400129",
+        "defaulted": 0
+      },
+      {
+        "id": 41,
+        "userId": 3,
+        "province": 4,
+        "provinceName": "重庆",
+        "city": 87,
+        "cityName": "万州",
+        "county": 0,
+        "address": "斯蒂芬斯蒂芬",
+        "fullAddress": "重庆市万州区斯蒂芬斯蒂芬",
+        "name": "小宋",
+        "mobile": "15189839811",
+        "defaulted": 0
+      }
+    ]
+  }
+}
