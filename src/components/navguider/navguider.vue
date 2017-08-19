@@ -18,7 +18,9 @@ export default {
             this.$emit("show-guider-masker");
         },
         checkLogin () {
-            util.checkLogin("gallerySend");
+            this.$emit("toast");
+            return;
+            util.checkLogin("gallerySend", this);
         }
     }
 }

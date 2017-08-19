@@ -58,10 +58,11 @@
                 </div>
             </div>
         </div>
-        <v-navguider @show-guider-masker="showGuiderMasker"></v-navguider>
+        <v-navguider @show-guider-masker="showGuiderMasker" @toast="toast"></v-navguider>
         <v-maskerguider @hide-guider-masker="hideGuiderMasker" v-show="isShowGuiderMasker"></v-maskerguider>
         <v-maskerdetailerror v-show="isShowDetailErrorMasker"></v-maskerdetailerror>
         <v-maskerswiper :assistantImageList="detail.assistantImageList" :imageUrlList="[]" :isShowMaskerSwiper="isShowMaskerSwiper" @hide-masker-swiper="hideMaskerSwiper" :index="index" v-if="isShowMaskerSwiper"></v-maskerswiper>
+        <v-maskertips :tips="tips" v-show="tips"></v-maskertips>
     </div>
 </template>
 
@@ -72,6 +73,7 @@
     import maskerguider from "src/components/maskerguider/maskerguider";
     import maskerdetailerror from "src/components/maskerdetailerror/maskerdetailerror";
     import maskerswiper from "src/components/maskerswiper/maskerswiper";
+    import maskertips from "src/components/maskertips/maskertips";
     import supplier from "src/components/supplier/supplier";
     import url from "src/config/url";
     import util from "src/common/util";
@@ -95,7 +97,8 @@ export default {
             isShowGuiderMasker: false,
             isShowDetailErrorMasker: false,
             isShowMaskerSwiper: false,
-            index: 0
+            index: 0,
+            tips: ""
         }
     },
     components: {
@@ -106,6 +109,7 @@ export default {
         "v-maskerdetailerror": maskerdetailerror,
         "v-maskerswiper": maskerswiper,
         "v-supplier": supplier,
+        "v-maskertips": maskertips,
     },
     created () {
         console.log("created");
@@ -176,6 +180,9 @@ export default {
         },
         hideMaskerSwiper () {
             this.isShowMaskerSwiper = false;
+        },
+        toast () {
+            util.toast("功能尚未开放，敬请期待", this);
         }
     }
 }

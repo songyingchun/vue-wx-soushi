@@ -40,6 +40,10 @@ export default {
         index: {
             type: Number,
             default: 0
+        },
+        isShowMaskerSwiper: {
+            type: Boolean,
+            default: false
         }
     },
     data () {
@@ -49,6 +53,7 @@ export default {
         }
     },
     created () {
+        document.querySelector("body").classList.add("over-flow-hidden");
         this.fixImageList();
     },
     mounted () {
@@ -56,7 +61,7 @@ export default {
         this.initPinchZoom();
     },
     destroyed () {
-
+        document.querySelector("body").classList.remove("over-flow-hidden");
     },
     methods: {
         initSwiper () {

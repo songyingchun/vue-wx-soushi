@@ -1,7 +1,7 @@
 {
-  "name": "wx-soushi-shop",
+  "name": "vue-wx-soushi",
   "version": "1.0.0",
-  "description": "",
+  "description": "vue-wx-soushi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,9 @@
     "build": "cross-env NODE_ENV=production && webpack --config webpack.config.production.js --progress --color"
   },
   "keywords": [
-    "weixin"
+    "weixin",
+    "vue2",
+    "webpack"
   ],
   "author": "songyingchun",
   "license": "ISC",

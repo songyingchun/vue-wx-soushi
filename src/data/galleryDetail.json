@@ -78,7 +78,7 @@
         "companyId": 3670,
         "companyName": "云浮市创业石材有限公司",
         "contact": "伍小姐",
-        "image": "http://image.company.soushi88.com/3670/3670-20170426235942.jpg?x-oss-process=image/resize,m_fixed,h_30,w_40/quality,q_80",
+        "image": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/1161/37d19d9c5e3c3476e5bef3c966ca3559.JPG?x-oss-process=style/white-high",
         "mobile": "13826887007",
         "products": "蓝金沙，鱼肚白，新细纹鱼肚白，梦幻灰，大花白，中花白，柏斯高灰，罗马尼亚灰，广安灰，桥切，石线，水刀拼图，工艺加工",
         "stoneLibId": 348,
@@ -90,22 +90,12 @@
         "companyId": 4738,
         "companyName": "云浮市四洲石业有限公司",
         "contact": "杜玉宜",
-        "image": "http://image.company.soushi88.com/4738/4738-20170427000207.jpg?x-oss-process=image/resize,m_fixed,h_30,w_40/quality,q_80",
+        "image": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/1161/37d19d9c5e3c3476e5bef3c966ca3559.JPG?x-oss-process=style/white-high",
         "mobile": "13826855741；13686573764",
         "products": "浪琴灰，卡地亚会，雅尔斯灰，伯爵灰，丘比灰，意大利灰，维托灰，柏斯高灰，蓝金沙，索玛里灰，梦幻灰，蝴蝶灰",
         "stoneLibId": 348,
         "tel": "0766-8555111",
         "weight": 2
-      },
-      {
-        "companyId": 4973,
-        "stoneLibId": 348,
-        "weight": 3
-      },
-      {
-        "companyId": 5128,
-        "stoneLibId": 348,
-        "weight": 4
       }
     ]
   }

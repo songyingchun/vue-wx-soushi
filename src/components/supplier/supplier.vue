@@ -39,7 +39,6 @@ export default {
             let supplier = [];
             console.log("supplier");
             if(this.page == "boutiqueDetail" || this.page == "searchDetail") {
-//                console.log(this.$store.state.data[this.page]);
                 this.supplier = [this.$store.state.data[this.page][0].data.company];
             }else {
                 this.supplier = this.$store.state.data[this.page].data.supplier;
@@ -55,7 +54,7 @@ export default {
         overflow: hidden;
         margin-top: 30px;
         display: flex;
-        .pic{
+        .pic, .pic img{
             width: 280px;
         }
         .text-wrapper{
