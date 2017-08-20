@@ -5,7 +5,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import VueResource from "vue-resource";
 import store from "src/store/index";
-import router from "src/config/router";
+import router from "src/router/router";
 
 import rem from "./config/flexible";
 import ResetCss from "./style/reset.css";

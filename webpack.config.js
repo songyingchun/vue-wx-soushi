@@ -90,7 +90,7 @@ module.exports = {
     },
     plugins: [
         new htmlWebpackPlugin({
-            favicon: "./src/images/logo.ico",
+            favicon: "favicon.ico",
             template: "index.html",
             filename: "index.html",
             inject: "body"
