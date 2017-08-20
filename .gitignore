@@ -3,6 +3,5 @@ node_modules
 npm-debug.log
 .idea
 dev
-dist
 build
 debug.log

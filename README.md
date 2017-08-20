@@ -43,6 +43,7 @@ npm run build(打包生产环境)
 .
 vue-wx-soushi 
     │  .babelrc                             // babel配置文件
+    │  dist                                 // 生产目录
     │  .eslintignore                        // eslint忽略文件
     │  .eslintrc                            // eslint配置文件
     │  favicon.ico                          // logo图标
