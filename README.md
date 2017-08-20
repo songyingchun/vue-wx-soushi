@@ -40,7 +40,6 @@ npm run build(打包生产环境)
 
 # 项目布局
 ```
-.
 vue-wx-soushi 
     │  .babelrc                             // babel配置文件
     │  dist                                 // 生产目录
@@ -76,14 +75,10 @@ vue-wx-soushi
         │  │      focus.vue                 // 焦点图组件
         │  │      
         │  ├─footer
-        │  │  │  footer.vue                 // 底部公共组件
-        │  │  │  
-        │  │  └─icon
+        │  │      footer.vue                 // 底部公共组件
         │  │          
         │  ├─gallerypiclist                 
-        │  │  │  gallerypiclist.vue         // 图库图片列表组件
-        │  │  │  
-        │  │  └─icon
+        │  │      gallerypiclist.vue         // 图库图片列表组件
         │  │          
         │  ├─loadingbar
         │  │      loadingbar.vue            // 加载状态组件
@@ -92,24 +87,16 @@ vue-wx-soushi
         │  │      maskerconfirm.vue         // 确认弹窗组件
         │  │      
         │  ├─maskerdetailerror
-        │  │  │  maskerdetailerror.vue      // 出错页面组件
-        │  │  │  
-        │  │  └─icon
+    │  │          maskerdetailerror.vue      // 出错页面组件
         │  │          
         │  ├─maskerfail 
-        │  │  │  maskerfail.vue             // 提交失败弹窗组件
-        │  │  │  
-        │  │  └─icon
+        │  │      maskerfail.vue             // 提交失败弹窗组件
         │  │          
         │  ├─maskerguider                   
-        │  │  │  maskerguider.vue           // 引导弹窗组件
-        │  │  │  
-        │  │  └─icon
+        │  │      maskerguider.vue           // 引导弹窗组件
         │  │          
         │  ├─maskersuccess
-        │  │  │  maskersuccess.vue          // 提交成功弹窗组件
-        │  │  │  
-        │  │  └─icon
+        │  │      maskersuccess.vue          // 提交成功弹窗组件
         │  │          
         │  ├─maskerswiper
         │  │      maskerswiper.vue           // 切换弹窗组件
@@ -118,36 +105,25 @@ vue-wx-soushi
         │  │      maskertips.vue             // 提示弹窗组件 
         │  │      
         │  ├─navguider
-        │  │  │  navguider.vue              // 图库详情引导组件
-        │  │  │  
-        │  │  └─icon
+        │  │      navguider.vue              // 图库详情引导组件
         │  │          
         │  ├─navlist
-        │  │  │  navlist.vue                // 导航组件
-        │  │  │  
-        │  │  └─icon
+        │  │      navlist.vue                // 导航组件
         │  │          
         │  ├─piclist
         │  │      piclist.vue               // 图片列表组件
         │  │      
         │  ├─price
-        │  │  │  price.vue                  // 价格组件
-        │  │  │  
-        │  │  └─icon
+        │  │      price.vue                  // 价格组件
         │  │          
         │  ├─proposeprice                   // 参考价组件
-        │  │  │  proposeprice.vue
-        │  │  │  
-        │  │  └─icon
+        │  │      proposeprice.vue
+        │  │      
         │  ├─receiveinfo
-        │  │  │  receiveinfo.vue            // 收货信息组件
-        │  │  │  
-        │  │  └─icon
+        │  │      receiveinfo.vue            // 收货信息组件
         │  │          
         │  ├─search
-        │  │  │  search.vue                 // 图片搜索组件
-        │  │  │  
-        │  │  └─icon
+        │  │      search.vue                 // 图片搜索组件
         │  │          
         │  ├─selectarea
         │  │      selectarea.vue             // 选择地区组件 
@@ -162,9 +138,7 @@ vue-wx-soushi
         │  │      supplier.vue               // 提供商组件
         │  │      
         │  └─swiperfocus
-        │      │  swiperfocus.vue            // 切换焦点图组件 
-        │      │  
-        │      └─icon
+        │          swiperfocus.vue            // 切换焦点图组件 
         │              
         ├─config                             // 基本配置
         │      flexible.js                    // 淘宝flexible
@@ -175,49 +149,31 @@ vue-wx-soushi
         ├─images                             // 公共图片                     
         ├─page                               // 页面
         │  ├─addAddress                     
-        │  │  │  addAddress.vue             // 添加收货地址    
-        │  │  │  
-        │  │  └─icon
+        │  │      addAddress.vue             // 添加收货地址    
         │  │          
         │  ├─authorized
-        │  │  │  authorized.vue             // 个人认证
-        │  │  │  
-        │  │  └─icon
+        │  │      authorized.vue             // 个人认证
         │  │          
         │  ├─boutique                       // 精品商城
-        │  │  │  boutique.vue
-        │  │  │  
-        │  │  └─icon
+        │  │      boutique.vue
         │  │          
         │  ├─boutiqueDetail                 // 精品商城详情页
-        │  │  │  boutiqueDetail.vue
-        │  │  │  
-        │  │  └─icon
+        │  │      boutiqueDetail.vue
         │  │          
         │  ├─editorAddress                   
-        │  │  │  editorAddress.vue          // 编辑收货地址              
-        │  │  │  
-        │  │  └─icon
+        │  │      editorAddress.vue          // 编辑收货地址              
         │  │          
         │  ├─findPassword
-        │  │  │  findPassword.vue           // 找回密码
-        │  │  │  
-        │  │  └─icon
+        │  │      findPassword.vue           // 找回密码
         │  │          
         │  ├─forgetPassword
-        │  │  │  forgetPassword.vue         // 忘记密码
-        │  │  │  
-        │  │  └─icon
+        │  │      forgetPassword.vue         // 忘记密码
         │  │          
         │  ├─gallery
-        │  │  │  gallery.vue                // 石材图库
-        │  │  │  
-        │  │  └─icon
+        │  │      gallery.vue                // 石材图库
         │  │          
         │  ├─galleryDetail
-        │  │  │  galleryDetail.vue          // 图库详情页
-        │  │  │  
-        │  │  └─icon
+        │  │      galleryDetail.vue          // 图库详情页
         │  │          
         │  ├─gallerySend                    
         │  │      gallerySend.vue           // 图库样板寄送
@@ -226,47 +182,31 @@ vue-wx-soushi
         │  │      index.vue                 // 首页
         │  │      
         │  ├─login                          
-        │  │  │  login.vue                 // 登录
-        │  │  │  
-        │  │  └─icon
+        │  │      login.vue                 // 登录
         │  │          
         │  ├─manageAddress
-        │  │  │  manageAddress.vue          // 管理收货地址
-        │  │  │  
-        │  │  └─icon
+        │  │      manageAddress.vue          // 管理收货地址
         │  │          
         │  ├─modifyPassword             
         │  │      modifyPassword.vue         // 修改密码
         │  │      
         │  ├─personal
-        │  │  │  personal.vue               // 个人中心
-        │  │  │  
-        │  │  └─icon
+        │  │      personal.vue               // 个人中心
         │  │          
         │  ├─photo
-        │  │  │  photo.vue                  // 拍照找石
-        │  │  │  
-        │  │  └─icon
+        │  │      photo.vue                  // 拍照找石
         │  │          
         │  ├─register
-        │  │  │  register.vue               // 注册
-        │  │  │  
-        │  │  └─icon
+        │  │      register.vue               // 注册
         │  │          
         │  ├─search
-        │  │  │  search.vue                 // 搜现货
-        │  │  │  
-        │  │  └─icon
+        │  │      search.vue                 // 搜现货
         │  │          
         │  ├─searchDetail
-        │  │  │  searchDetail.vue           // 搜现货详情页
-        │  │  │  
-        │  │  └─icon
+        │  │      searchDetail.vue           // 搜现货详情页
         │  │          
         │  └─send
-        │      │  send.vue                  // 样板寄送    
-        │      │  
-        │      └─icon
+        │          send.vue                  // 样板寄送    
         │              
         ├─plugins                           // 插件
         │      circliful.js                  // 相似百分比
@@ -292,6 +232,4 @@ vue-wx-soushi
                 mixin.scss                    // mixin样式函数
                 reset.css                   
                 swiper.css                    
-.
-
 ```
