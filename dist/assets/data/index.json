@@ -1,0 +1,194 @@
+{
+  "page": {
+    "lastPage": true,
+    "pageCurrent": 1,
+    "pageSize": 8,
+    "firstPage": true,
+    "totalRow": 6,
+    "totalPage": 1
+  },
+  "status": {
+    "message": "ok",
+    "code": 0
+  },
+  "data": {
+    "list": [
+      {
+        "id": 15005443320095247,
+        "idString": "15005443320095247",
+        "blockNo": "XY18#",
+        "companyId": 5876,
+        "variety": "云多拉灰",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 5,
+        "colorName": "灰色",
+        "length": 2560.0,
+        "width": 1770.0,
+        "thickness": 16.0,
+        "area": 334.5654,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/20170720/8/15005443320095247/1f1d9116acbc4a3cd01446a35dbcc49d.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/20170720/8/15005443320095247/a10ab73f856e0af30a8108f28c2b9b79.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/20170720/8/15005443320095247/4bb1aec886ed0aaf3ea625c3f0e79b79.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/20170720/8/15005443320095247/4bb54e78f37aa1294582a4e33c116366.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/20170720/8/15005443320095247/7d2224991cee9b44fb059bb491828cbe.jpg?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 15002818341265889,
+        "idString": "15002818341265889",
+        "blockNo": "4963837",
+        "companyId": 5876,
+        "variety": "浅啡网",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 7,
+        "colorName": "黄色",
+        "length": 2720.0,
+        "width": 1660.0,
+        "thickness": 18.0,
+        "area": 81.2736,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/15002818341265889/20170717/8/a38e5d5b61906eb4b2057410d961f603.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/15002818341265889/20170717/8/18eb6bf18652d32ddcf6dfdcc0b37587.jpg?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 15002815944064265,
+        "idString": "15002815944064265",
+        "blockNo": "3741890",
+        "companyId": 5876,
+        "variety": "浅啡网",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 7,
+        "colorName": "黄色",
+        "length": 2770.0,
+        "width": 1780.0,
+        "thickness": 18.0,
+        "area": 69.0284,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/15002815944064265/20170717/8/4ab3f1715a8bac7ff1cba019a16a7475.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/15002815944064265/20170717/8/3546b795e5d0cf2197a1693ba3360fe4.jpg?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 15002788070438949,
+        "idString": "15002788070438949",
+        "blockNo": "17-V241",
+        "companyId": 5876,
+        "variety": "银白龙",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 8,
+        "colorName": "黑色",
+        "length": 2900.0,
+        "width": 1700.0,
+        "thickness": 18.0,
+        "area": 59.16,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/15002788070438949/20170717/8/335cae7291cb46b06c476cf195a95be7.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/15002788070438949/20170717/8/27f855fe4e14dfa0c83eeee62322ad1b.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/15002788070438949/20170717/8/efa18b226a5ee187407de4f2e72e1012.jpg?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/15002788070438949/20170717/8/5095575c173d9fa12e582989d5cb1da3.jpg?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 14998792661941411,
+        "idString": "14998792661941411",
+        "blockNo": "ERT-13",
+        "companyId": 5876,
+        "variety": "白玉兰",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 7,
+        "colorName": "黄色",
+        "length": 2890.0,
+        "width": 1560.0,
+        "thickness": 16.0,
+        "area": 291.6299,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/5feac3d980daeaaaa7a49302fa772e8f.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/92b4ee163ca3dacdb58d32f091cf2689.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/d38049c3a045ffa9c470292d3c76f2fc.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/abe260a4eb9780e74c18312dca96523f.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/112d499c1fdb92d6a602c967b4ae0205.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/676a44e4efce91c9b10239d1625fe2c8.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/51d6fa0b62cad1604117d3123978409e.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998792661941411/20170713/8/8fd57b411c884995e62ee684bb7fcdd3.JPG?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 14998781010067152,
+        "idString": "14998781010067152",
+        "blockNo": "ERT-9",
+        "companyId": 5876,
+        "variety": "白玉兰",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 7,
+        "colorName": "黄色",
+        "length": 1960.0,
+        "width": 1750.0,
+        "thickness": 16.0,
+        "area": 291.6214,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/b2d6a3d7b7074a6ba3be7f7bdaaa311a.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/ac0cdcd600d2e06f9c8a777ad63883ae.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/74159083e99101766ae69d8578a2030b.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/9a23cf76f6ab78db97f534ca6a562cb5.JPG?x-oss-process\u003dstyle/high"
+        ]
+      },
+      {
+        "id": 14998781010067152,
+        "idString": "14998781010067152",
+        "blockNo": "ERT-9",
+        "companyId": 5876,
+        "variety": "白玉兰",
+        "kind": 2,
+        "kindName": "大理石",
+        "color": 7,
+        "colorName": "黄色",
+        "length": 1960.0,
+        "width": 1750.0,
+        "thickness": 16.0,
+        "area": 291.6214,
+        "grade": 1,
+        "gradeName": "A级",
+        "minPrice": 0.0,
+        "maxPrice": 0.0,
+        "imageUrlList": [
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/b2d6a3d7b7074a6ba3be7f7bdaaa311a.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/ac0cdcd600d2e06f9c8a777ad63883ae.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/74159083e99101766ae69d8578a2030b.JPG?x-oss-process\u003dstyle/high",
+          "http://slab.image.soushi88.com/block/5876/14998781010067152/20170713/8/9a23cf76f6ab78db97f534ca6a562cb5.JPG?x-oss-process\u003dstyle/high"
+        ]
+      }
+    ]
+  }
+}

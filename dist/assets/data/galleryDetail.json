@@ -1,0 +1,102 @@
+{
+  "status": {
+    "message": "ok",
+    "code": 0
+  },
+  "data": {
+    "detail": {
+      "alias": "",
+      "assistantImageList": [
+        {
+          "assistantImageUrl": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/348/27c8ebfaeacd9360fe3e42a77e0217c5.JPG?x-oss-process=style/white-high",
+          "rank": 1,
+          "remark": "啊飒飒"
+        },
+        {
+          "assistantImageUrl": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/348/bc0ff14bc3ee5cf60a70e171b1933aca.JPG?x-oss-process=style/white-high",
+          "rank": 2,
+          "remark": "啊飒飒"
+        },
+        {
+          "assistantImageUrl": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/348/a155feae6f082c018fe49e6c9688f7b0.JPG?x-oss-process=style/white-high",
+          "rank": 3,
+          "remark": "飒飒是"
+        }
+      ],
+      "basicFeature": "",
+      "characteristic": "",
+      "chineseName": "梦幻灰",
+      "color": 5,
+      "colorName": "灰色",
+      "country": 250,
+      "countryName": "其他",
+      "createTime": 1492095679185,
+      "deleted": 0,
+      "density": "",
+      "englishName": "Dream grey",
+      "id": 348,
+      "introduction": "",
+      "kind": 2,
+      "kindName": "大理石",
+      "modifyTime": 1499674607079,
+      "price": "",
+      "priceDtoList": [
+        {
+          "highPrice": 300.0,
+          "kind": 1,
+          "kindName": "大理石A级",
+          "lowPrice": 150.0
+        },
+        {
+          "highPrice": 280.0,
+          "kind": 2,
+          "kindName": "大理石B级",
+          "lowPrice": 120.0
+        },
+        {
+          "highPrice": 250.0,
+          "kind": 3,
+          "kindName": "大理石C级",
+          "lowPrice": 100.0
+        }
+      ],
+      "province": 0,
+      "provinceName": "全部",
+      "qrCode": "http://192.168.199.102:9020/stoneLib/qrcodeImage?id=348",
+      "radioactivity": "",
+      "spell": "mhh",
+      "standardImage": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/1161/37d19d9c5e3c3476e5bef3c966ca3559.JPG?x-oss-process=style/white-high",
+      "stoneNo": "348",
+      "strength": "",
+      "textureDtoList": [],
+      "usingDtoList": [],
+      "waterAbsorption": ""
+    },
+    "supplier": [
+      {
+        "address": "云浮市云城区初城第一工业园",
+        "companyId": 3670,
+        "companyName": "云浮市创业石材有限公司",
+        "contact": "伍小姐",
+        "image": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/1161/37d19d9c5e3c3476e5bef3c966ca3559.JPG?x-oss-process=style/white-high",
+        "mobile": "13826887007",
+        "products": "蓝金沙，鱼肚白，新细纹鱼肚白，梦幻灰，大花白，中花白，柏斯高灰，罗马尼亚灰，广安灰，桥切，石线，水刀拼图，工艺加工",
+        "stoneLibId": 348,
+        "tel": "0766-8222281",
+        "weight": 1
+      },
+      {
+        "address": "广东省云浮市安塘镇夏洞开发区",
+        "companyId": 4738,
+        "companyName": "云浮市四洲石业有限公司",
+        "contact": "杜玉宜",
+        "image": "http://soushi-test.oss-cn-shenzhen.aliyuncs.com/1161/37d19d9c5e3c3476e5bef3c966ca3559.JPG?x-oss-process=style/white-high",
+        "mobile": "13826855741；13686573764",
+        "products": "浪琴灰，卡地亚会，雅尔斯灰，伯爵灰，丘比灰，意大利灰，维托灰，柏斯高灰，蓝金沙，索玛里灰，梦幻灰，蝴蝶灰",
+        "stoneLibId": 348,
+        "tel": "0766-8555111",
+        "weight": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": {
+    "message": "ok",
+    "code": 0
+  },
+  "data": {
+    "detail": {
+      "id": 32,
+      "userId": 1,
+      "province": 20,
+      "provinceName": "广东",
+      "city": 321,
+      "cityName": "广州",
+      "county": 2216,
+      "countyName": "天河",
+      "address": "棠东",
+      "fullAddress": "广东省广州市天河区棠东",
+      "name": "陈文超",
+      "mobile": "15876507654",
+      "defaulted": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": {
+    "message": "ok",
+    "code": 0
+  },
+  "data": {
+    "id": 1,
+    "mobile": "15876507654",
+    "name": "陈文超",
+    "gender": 1,
+    "genderName": "男",
+    "email": "",
+    "avatar": "",
+    "companyId": 5876,
+    "companyName": "搜石网",
+    "companyAddress": "云浮市",
+    "employStatus": 1,
+    "employVerify": 2,
+    "showPrice": 0,
+    "active": 1
+  }
+}
