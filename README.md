@@ -87,7 +87,7 @@ vue-wx-soushi
         │  │      maskerconfirm.vue         // 确认弹窗组件
         │  │      
         │  ├─maskerdetailerror
-    │  │          maskerdetailerror.vue      // 出错页面组件
+        │  │      maskerdetailerror.vue      // 出错页面组件
         │  │          
         │  ├─maskerfail 
         │  │      maskerfail.vue             // 提交失败弹窗组件
